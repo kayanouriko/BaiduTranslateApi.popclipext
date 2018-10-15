@@ -1,0 +1,2 @@
+# BaiduTranslateApi.popclipext
+一个采用百度翻译api的popclip扩展
