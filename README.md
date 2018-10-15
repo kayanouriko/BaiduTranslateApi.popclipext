@@ -5,7 +5,9 @@
 
 使用前请前往[百度翻译平台](http://api.fanyi.baidu.com/api/trans/product/index)申请自己的key，免费版足够个人使用了
 
-需要python3支持， 调用路径为_usr_local_bin_python3
+需要python3支持， 调用路径为/usr/local/bin/python3
+
+目前还有一些小瑕疵，但是暂时足够应付日常使用
 
 截图：
 
