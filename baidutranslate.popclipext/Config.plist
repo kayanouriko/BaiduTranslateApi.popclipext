@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Image File</key>
+			<string>tab.png</string>
+			<key>Requirements</key>
+			<array>
+				<string>copy</string>
+			</array>
+			<key>Title</key>
+			<string>百度翻译</string>
+			<key>Shell Script File</key>
+			<string>translate.sh</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>对选中的文本采用百度翻译api进行翻译</string>
+	<key>Extension Identifier</key>
+	<string>cc.kayanouriko.baidutranslate</string>
+	<key>Extension Name</key>
+	<string>百度翻译api版</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Option Default Value</key>
+			<string></string>
+			<key>Option Identifier</key>
+			<string>urikoappid</string>
+			<key>Option Label</key>
+			<string>APP ID</string>
+			<key>Option Type</key>
+			<string>string</string>
+		</dict>
+		<dict>
+			<key>Option Default Value</key>
+			<string></string>
+			<key>Option Identifier</key>
+			<string>urikokey</string>
+			<key>Option Label</key>
+			<string>密钥</string>
+			<key>Option Type</key>
+			<string>string</string>
+		</dict>
+		<dict>
+			<key>Option Default Value</key>
+			<string>自动检测</string>
+			<key>Option Identifier</key>
+			<string>urikofrom</string>
+			<key>Option Label</key>
+			<string>源语言</string>
+			<key>Option Type</key>
+			<string>multiple</string>
+			<key>Option Values</key>
+			<array>
+				<string>自动检测</string>
+				<string>中文</string>
+				<string>英语</string>
+				<string>粤语</string>
+				<string>文言文</string>
+				<string>日语</string>
+				<string>韩语</string>
+				<string>法语</string>
+				<string>西班牙语</string>
+				<string>泰语</string>
+				<string>俄语</string>
+				<string>葡萄牙语</string>
+				<string>德语</string>
+				<string>意大利语</string>
+				<string>希腊语</string>
+				<string>荷兰语</string>
+				<string>波兰语</string>
+				<string>保加利亚语</string>
+				<string>爱沙尼亚语</string>
+				<string>丹麦语</string>
+				<string>芬兰语</string>
+				<string>捷克语</string>
+				<string>罗马尼亚语</string>
+				<string>斯洛文尼亚语</string>
+				<string>斯洛文尼亚语</string>
+				<string>瑞典语</string>
+				<string>匈牙利语</string>
+				<string>繁体中文</string>
+				<string>越南语</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Option Default Value</key>
+			<string>中文</string>
+			<key>Option Identifier</key>
+			<string>urikoto</string>
+			<key>Option Label</key>
+			<string>目标语言</string>
+			<key>Option Type</key>
+			<string>multiple</string>
+			<key>Option Values</key>
+			<array>
+				<string>中文</string>
+				<string>英语</string>
+				<string>粤语</string>
+				<string>文言文</string>
+				<string>日语</string>
+				<string>韩语</string>
+				<string>法语</string>
+				<string>西班牙语</string>
+				<string>泰语</string>
+				<string>俄语</string>
+				<string>葡萄牙语</string>
+				<string>德语</string>
+				<string>意大利语</string>
+				<string>希腊语</string>
+				<string>荷兰语</string>
+				<string>波兰语</string>
+				<string>保加利亚语</string>
+				<string>爱沙尼亚语</string>
+				<string>丹麦语</string>
+				<string>芬兰语</string>
+				<string>捷克语</string>
+				<string>罗马尼亚语</string>
+				<string>斯洛文尼亚语</string>
+				<string>斯洛文尼亚语</string>
+				<string>瑞典语</string>
+				<string>匈牙利语</string>
+				<string>繁体中文</string>
+				<string>越南语</string>
+			</array>
+		</dict>
+	</array>
+	<key>Required Software Version</key>
+	<real>1</real>
+</dict>
+</plist>
